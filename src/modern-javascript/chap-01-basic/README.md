@@ -36,4 +36,5 @@ while	with	yield
 #### 4. null
 #### 5. undefined
 #### 6. symbol
-#### 7. JSON {}
+#### 7. JSON {}  == Object
+
