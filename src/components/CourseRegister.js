@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const CourseResister = () => (
+const CourseRegister = () => (
 <div>
     <h1> 여름 방학 특강 신청</h1>
     <form>
@@ -50,4 +50,4 @@ const CourseResister = () => (
         </form>
     </div>
 );
-export default CourseResister
+export default CourseRegister

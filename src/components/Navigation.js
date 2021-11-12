@@ -19,7 +19,7 @@ const Nav = styled.div`
     width:100%;
     height:30px;
     border-bottom: 1px solid #d1d8e4;
-    `
+    `                                                                
 
 const NavList = styled.ul`
     width:1080px;
@@ -33,4 +33,3 @@ const NavtItem = styled.li`
     margin-top: 5px;
     display: flex;
 `
-

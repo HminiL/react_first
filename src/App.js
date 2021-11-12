@@ -1,15 +1,16 @@
 import React from 'react'
-import {Route, Redirect, Switch} from 'react-router-dom'
-import OnlineProfile from './components/OnlineProfile'
-import CourseRegister from './components/CourseRegister'
-import SchoolStatus from './components/SchoolStatus'
-import Join from './components/Join'
-import Login from './components/Login'
-import Home from './components/Home'
-import Navigation from './components/Navigation';
+import { Route, Redirect, Switch } from 'react-router-dom'
+import {  OnlineProfile, 
+          CourseRegister, 
+          SchoolStatus, 
+          Join, 
+          Login, 
+          Home, 
+          Navigation, 
+          Header, 
+          NavigationForJavaScript } from 'components/index'
+import { HomePage } from 'pages/index';
 import styled from 'styled-components';
-import Header from './components/Header';
-import Nav from './components/NavigationForJavaScript'
 import Basic from './modern-javascript/chap-01-basic/Basic';
 import ArrowFunction from './modern-javascript/chap-02-arrow-function/ArrowFunction';
 import Arguments from './modern-javascript/chap-03-arguments/Arguments';
@@ -32,9 +33,9 @@ import Es2019 from './modern-javascript/chap-21-es2019/Es2019'
 import Es2020 from './modern-javascript/chap-22-es2020/Es2020'
 import TypeScript from './modern-javascript/chap-23-typescript/TypeScript'
 import ObjectLiteral from './modern-javascript/chap-10-object-literal/ObjectLiteral'
-import HomePage from './pages/HomePage'
 
-const App =() => (<Layout><Header /><Navigation /><Nav />
+
+const App =() => (<Layout><Header /><Navigation /><NavigationForJavaScript />
   <Switch>
   <Route  exact path= '/' component = {HomePage}/>
   <Redirect  from = '/home' to = {'/'}/>
